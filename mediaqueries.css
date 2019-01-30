@@ -1,0 +1,65 @@
+/* Small Devices (landscape phones) */
+@media (min-width: 576px) {
+  body {
+    background: red;
+  }
+}
+
+/* Medium Devices (tablets) */
+@media (min-width: 768px) {
+  body {
+    background: blue;
+  }
+}
+
+/* Large Devices (desktops) */
+@media (min-width: 992px) {
+  body {
+    background: green;
+  }
+}
+
+/* XL Devices (large desktops) */
+@media (min-width: 1200px) {
+  body {
+    background: yellow;
+  }
+}
+
+/* EXTRA SMALL DEVICES */
+@media (mac-width: 575px) {
+  body {
+    background: coral;
+  }
+}
+
+/* MAX-WIDTH */
+/* 1px less when using max-width */
+
+/* Small Devices (landscape phones) */
+@media (max-width: 575px) {
+  body {
+    background: red;
+  }
+}
+
+/* Medium Devices (tablets) */
+@media (max-width: 767px) {
+  body {
+    background: blue;
+  }
+}
+
+/* Large Devices (desktops) */
+@media (max-width: 991px) {
+  body {
+    background: green;
+  }
+}
+
+/* XL Devices (large desktops) */
+@media (max-width: 1199px) {
+  body {
+    background: yellow;
+  }
+}
